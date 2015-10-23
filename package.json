@@ -1,0 +1,19 @@
+{
+  "name": "Gohan",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^1.5.1",
+    "gulp": "^3.8.8",
+    "gulp-compass": "^1.3.1",
+    "gulp-minify-css": "^0.3.10",
+    "gulp-watch": "^1.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudwan/gohan_website.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "Apache-2.0"
+}
