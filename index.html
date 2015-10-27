@@ -5,11 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Gohan - REST-based api server to evolve your cloud service very rapidly">
   <link rel="icon" href="./favicon.ico">
-  <title>Gohan - REST-based api server to evolve your cloud service very rapidly</title>
+  <title>Gohan - REST-based api server to evolve your cloud service very rapidly</title> 
   <link href="assets/vendors/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
   <link href="assets/vendors/font-awesome/css/font-awesome.css" rel="stylesheet">
   <link href="//fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
   <link href="assets/css/main.css" rel="stylesheet"></head>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-99597-8', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 <body>
   <main class="main_gohan">
     <nav class="navbar">
@@ -46,7 +56,7 @@
     <div class="container main_text">
       <div class="lead">
         <h1>
-          &ldquo;Micro&rdquo; services in a minute
+          &ldquo;Micro&rdquo; Services in a minute
           <br>Simple and unified cloud service architecture</h1>
         <p>
           Gohan makes REST-based api server, db backend, CLI ,and WebUI from JSON
@@ -67,12 +77,12 @@
         <div class="col-md-4">
           <div class="feature">
             <img src="assets/img/gh-f01.png" width="121" height="121" class="img_feature" alt="">
-            <h2>SINGLE PROCESS for REST based &ldquo;micro&rdquo; services</h2>
+            <h2>SINGLE PROCESS for REST Based &ldquo;Micro&rdquo; Services</h2>
             <p>
               Traditional “fat” services are difficult to manage: subsystems become tightly coupled making it hard to introduce changes. Micro-service based architectures are meant to solve this issue; however they come with additional problems such as process management and orchestration.
             </p>
             <p>
-              Gohan enables you to define microservices within single unified process, so that you can keep your system architecture and deployment model simple. Moreover, Gohan supports transactional management for microservices orchestration.
+              Gohan enables you to define microservices within a single unified process, so that you can keep your system architecture and deployment model simple. Moreover, Gohan supports transactional management for microservices orchestration.
             </p>
           </div>
         </div>
@@ -81,24 +91,24 @@
             <img src="assets/img/gh-f02.png" width="161" height="121" class="img_feature" alt="">
             <h2>SCHEMA-DRIVEN Service Develoment</h2>
             <p>
-              Similar structure code everywhere.
-Typical Schema-driven development tools reduces number of code lines by automatic code generation. Down side of the code generation method is adding complexity to the code management.
+              Typical Schema-driven development tools reduces number of code lines by automatic code generation. The downside of the code generation method   adds complexity to code management.
             </p>
             <p>
-              In Gohan project, we are challenging to have powerful schema-driven development without those complexity.
+              In the Gohan project, we are delivering a powerful schema-driven development without those complexity.
             </p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="feature">
             <img src="assets/img/gh-f03.png" width="121" height="121" class="img_feature" alt="">
-            <h2>SINGLE PLACE to keep Service related poilcy, config and code</h2>
+            <h2>
+              A Single Place to keep Service-Related Policy, Configuration and Code
+            </h2>
             <p>
-              Cloud service management is not simple.
-Typical cloud architecutre has three layers, i.e. Controller, Communication and Agent layer. When you develop a new service on this archtecutre, configurations and codes will be distributed across three layers. This makes hard to diagnose issue and manage services.
+              Cloud service management is not a simple task. Typical cloud architecture has three layers: Controller, Communication and Agent.. When you develop a new service on this architecture, configurations and codes will be distributed across three layers. By doing so, this gives insight into hard to diagnose issues and manages services.
             </p>
             <p>
-              In Gohan, a gohan process can do roles in each layers,and a gohan process can understand service definition file, so that you can unify service related configuraion and code on one place.
+              In Gohan, the process can handle roles in each layer and a Gohan process can understand service definition files. Therefore,  you can unify service-related configuration and code in one centralized place.
             </p>
           </div>
         </div>
@@ -150,54 +160,58 @@ Typical cloud architecutre has three layers, i.e. Controller, Communication and 
       <div class="row">
         <div class="col-md-6">
           <dl class="faq">
-            <dt>How to use gohan?</dt>
+            <dt>How to use Gohan?</dt>
             <dd>
-              You can download binary from here, or compile github source code.
-              <br>Please take a look getting started guide. or Docs</dd>
-          </dl>
-          <dl class="faq">
-            <dt>Which lisence?</dt>
-            <dd>Apache2</dd>
-          </dl>
-          <dl class="faq">
-            <dt>oh.. again new "framework" stuff??</dt>
-            <dd>
-              We understand your concern for using new big framework. In gohan project, we try our best not to invent new framework but to implement useful components based on schemas
+              You can download binary from here, or compile a github source code.
+              <br>
+              Please take a look at our getting started guide. or documents.
             </dd>
           </dl>
+          <dl class="faq">
+            <dt>Another new "framework"?</dt>
+            <dd>
+              We understand your concern for using new big framework. In the Gohan project, we try our best not to invent new framework but to implement useful components based on schemas
+            </dd>
+          </dl>
+
         </div>
         <div class="col-md-6">
           <dl class="faq">
             <dt>How to contribute?</dt>
             <dd>
-              For indivisual contribution, please sign CLA and send pull request for github.
-For bug report or feature request, please open issue on github with tags.
+              For individual contribution, please sign the CLA and send a pull request for github.
+For bug report or feature requests, please open issue on github with tags.
 
 For company contribution, please contact info_cloudwan@ntti3.com
               <br>For developer communication, visit Gitter</dd>
           </dl>
           <dl class="faq">
-            <dt>Do you have production usecase?</dt>
-            <dd>please take a look show cases</dd>
+            <dt>Which lisence do we need?</dt>
+            <dd>Apache2</dd>
           </dl>
-        </div>
+          <!--          <dl class="faq">
+          <dt>Do you have production usecase?</dt>
+          <dd>please take a look show cases</dd>
+        </dl>
+        -->
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="assets/img/gh-logo-color.png" height="40" width="137"></div>
-        <div class="col-md-6 copy">
-          <p class="copy">&copy; 2015 NTT Innovation Institute, Inc.</p>
-        </div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="assets/img/gh-logo-color.png" height="40" width="137"></div>
+      <div class="col-md-6 copy">
+        <p class="copy">&copy; 2015 NTT Innovation Institute, Inc.</p>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
 
-  <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
-  <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+<script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
