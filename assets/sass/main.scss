@@ -16,9 +16,8 @@ body {
     margin-bottom: 0;
   }
   .nav > li > a {
-    font-size: 16px;
+    font-size: 17px;
     color: #fff;
-    text-transform: uppercase;
     @include text-shadow(rgba(#000, 0.8) 0px 0px 3px);
   }
   .nav > li.active > a {
@@ -52,7 +51,7 @@ body {
       padding: 0 15px;
     }
     .navbar-logo {
-      background: url(../img/gh-logo-white.png) no-repeat;
+      background: url(../img/gh-logo-head.png) no-repeat;
       background-size: 153px 50px;
       text-indent: -99999px;
       width: 153px;
@@ -98,7 +97,6 @@ body {
 
 .basic_container {
   padding-bottom: 40px;
-  border-bottom: 1px solid #eee;
   h2 {
     font-size: 28px;
     font-weight: bold;
@@ -153,7 +151,7 @@ body {
       margin-bottom: 32px;
       @include box-shadow(rgba(#000,0.2) 0px 0px 3px);
       dt {
-        border-top: 3px solid #284fd2;
+        border-top: 1px solid #2eadca;
         font-size: 18px;
         line-height: 20px;
         padding: 15px;
@@ -165,7 +163,7 @@ body {
           font-size: 14px;
           line-height: 20px;
           color:#fff;
-          background-color: #284fd2;
+          background-color: #2eadca;
           display: inline-block;
           text-align: center;
           width: 20px;
